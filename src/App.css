@@ -1,3 +1,9 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +42,151 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  min-height: 100vh;
+  max-height: 800vh;
+  width:100vw;
+  background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+  
+}
+/* .title {
+ 
+  
+  font-family: futura;
+  font-style: italic;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #313131;
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  
+     
+}
+  */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  background: #000;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.paragraph {
+  font-size: 50px;
+  
+}
+.span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.labelText {
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.butttonElement {
+ 
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 8px;
+  margin-left: 10px;
+  
+}
+.heading {
+  margin-left: 200px;
+}
+
+
+
+
+
+
+
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+ 
